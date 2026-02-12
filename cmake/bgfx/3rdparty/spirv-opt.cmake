@@ -84,6 +84,7 @@ file(
 	${SPIRV_TOOLS}/source/util/hex_float.h
 	${SPIRV_TOOLS}/source/util/parse_number.cpp
 	${SPIRV_TOOLS}/source/util/parse_number.h
+	${SPIRV_TOOLS}/source/util/status.h
 	${SPIRV_TOOLS}/source/util/string_utils.cpp
 	${SPIRV_TOOLS}/source/util/string_utils.h
 	${SPIRV_TOOLS}/source/util/timer.h
@@ -113,6 +114,7 @@ file(
 	${SPIRV_TOOLS}/source/val/validate_extensions.cpp
 	${SPIRV_TOOLS}/source/val/validate_function.cpp
 	${SPIRV_TOOLS}/source/val/validate_graph.cpp
+	${SPIRV_TOOLS}/source/val/validate_group.cpp
 	${SPIRV_TOOLS}/source/val/validate_id.cpp
 	${SPIRV_TOOLS}/source/val/validate_image.cpp
 	${SPIRV_TOOLS}/source/val/validate_instruction.cpp
@@ -120,6 +122,7 @@ file(
 	${SPIRV_TOOLS}/source/val/validate_invalid_type.cpp
 	${SPIRV_TOOLS}/source/val/validate_layout.cpp
 	${SPIRV_TOOLS}/source/val/validate_literals.cpp
+	${SPIRV_TOOLS}/source/val/validate_logical_pointers.cpp
 	${SPIRV_TOOLS}/source/val/validate_logicals.cpp
 	${SPIRV_TOOLS}/source/val/validate_memory.cpp
 	${SPIRV_TOOLS}/source/val/validate_memory_semantics.cpp
