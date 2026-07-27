@@ -1,6 +1,7 @@
 [submodule "bgfx"]
 	path = bgfx
-	url = https://github.com/BabylonJS/bgfx.git
+	url = https://github.com/SergioRZMasson/bgfx.git
+	branch = test-negative-viewport
 [submodule "bx"]
 	path = bx
 	url = https://github.com/bkaradzic/bx.git
