@@ -21,7 +21,6 @@ file(
 	${BIMG_DIR}/src/image_decode*.* #
 	#
 	${LOADPNG_SOURCES} #
-	${MINIZ_SOURCES} #
 )
 
 add_library(bimg_decode STATIC ${BIMG_DECODE_SOURCES})
@@ -40,6 +39,7 @@ target_include_directories(
 target_link_libraries(
 	bimg_decode
 	PUBLIC bx #
+		   bimg #
 		   ${LOADPNG_LIBRARIES} #
 		   ${MINIZ_LIBRARIES} #
 		   ${TINYEXR_LIBRARIES} #
